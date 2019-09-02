@@ -1,0 +1,4 @@
+<!--pages/web/heartrate/heartrate.wxml-->
+<web-view 
+src="https://zhuanlan.zhihu.com/p/24487694"></web-view>
+

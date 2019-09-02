@@ -1,0 +1,16 @@
+<!--pages/web/web.wxml-->
+<!--pages/web/web.wxml-->
+<swiper indicator-dots circular autoplay="true" interval="3000" duration="500">
+<swiper-item>
+<image src='/images/dingxiang.jpg' bindtap="godingxiang"></image>
+</swiper-item>
+<swiper-item>
+<image src='/images/heartrate.jpg'
+bindtap="goheartrate"></image>
+</swiper-item>
+</swiper>
+
+<view class='wrapper'>
+<button bindtap="godingxiang">23个跑步小窍门</button>
+<button bindtap="goheartrate">心率跑步法</button>
+</view>

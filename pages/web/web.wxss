@@ -1,0 +1,13 @@
+/* pages/web/web.wxss */
+
+swiper{
+  height: 180px;
+}
+swiper image{
+  width:100%;
+}
+
+.dingxiang{
+  margin: 50rpx;
+  border-radius: 100%;
+}

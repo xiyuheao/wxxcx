@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+
+
+
+    <view class="picture"> 
+    <swiper circular class="swiper_1" indicator-dots="true"
+      autoplay="true" interval="3000" duration="500" >
+
+
+        <swiper-item>
+          <image    src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" class="slide-image"/>
+        </swiper-item>
+
+        <swiper-item>
+          <image    src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" class="slide-image"/>
+        </swiper-item>
+
+        <swiper-item>
+          <image     src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="slide-image"/>
+        </swiper-item>
+
+    </swiper>
+    </view>
+
+    <view class="watch">
+      <button type="primary" bindtap="getDataFromOneNet" type="default" size="default" plain="false" 
+      > 查看心率图 </button>
+    </view>
+
+
+
+</view>
