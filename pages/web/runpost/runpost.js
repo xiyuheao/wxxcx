@@ -1,30 +1,11 @@
-// pages/web/web.js
+// pages/web/runpost/runpost.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    //轮播图的数据
-    swiperList: []
-  },
 
-  godingxiang: function () {
-    wx.navigateTo({
-      url: '../web/dingxiang/dingxiang'
-    })
-  },
-
-  goheartrate: function () {
-    wx.navigateTo({
-      url: '../web/heartrate/heartrate'
-    })
-  },
-
-  gorunpost: function () {
-    wx.navigateTo({
-      url: '../web/runpost/runpost'
-    })
   },
 
   /**
@@ -33,10 +14,6 @@ Page({
   onLoad: function (options) {
 
   },
-
-  //获取轮播图数据
-
-
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -69,7 +46,7 @@ Page({
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {godingxiang
+  onPullDownRefresh: function () {
 
   },
 
