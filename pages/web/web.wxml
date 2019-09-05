@@ -8,9 +8,14 @@
 <image src='/images/heartrate.jpg'
 bindtap="goheartrate"></image>
 </swiper-item>
+<swiper-item>
+<image src='/images/runpost.jpg'
+bindtap="gorunpost"></image>
+</swiper-item>
 </swiper>
 
 <view class='wrapper'>
 <button bindtap="godingxiang">23个跑步小窍门</button>
 <button bindtap="goheartrate">心率跑步法</button>
+<button bindtap="gorunpost">跑步姿势</button>
 </view>
